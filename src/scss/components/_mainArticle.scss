@@ -1,0 +1,65 @@
+@use '../abstract/var' as v;
+
+.main-article {
+    margin-top: 1.825rem;
+    &__banner {
+        picture {
+            img {
+                width: 100%;
+
+            }
+        }
+    }
+    &__title {
+        margin-top: 1.25rem;
+        line-height: 2.5rem;
+        font-size: 2.5rem;
+        color: v.$very-dark-blue;
+    }
+    &__description {
+        margin-top: 1.2rem;
+        font-size: 0.9375rem;
+        line-height: 1.6rem;
+        color: v.$dark-grayish-blue;
+        button {
+            margin-top: 1.5rem;
+            padding: .925rem 2rem;
+            font-size: 0.9375rem;
+            font-weight: 800;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            color: v.$off-white;
+            background: v.$soft-red;
+            cursor: pointer;
+            &:hover {
+                background: v.$very-dark-blue;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .main-article {
+        margin-top: 0;
+        .main-article__wrapper {
+            display: flex;
+            .main-article__title {
+                margin-top: 2.25rem;
+                line-height: 3.5rem;
+                font-size: 3.5rem;
+                width: 87.5%;
+            }
+            .main-article__description {
+                margin-top: 1.75rem;
+                line-height: 1.5rem;
+                width: 80%;
+                button {
+                    margin-top: 2.25rem;
+                }
+            }
+        }
+    }
+    #main {
+        grid-area: main;
+    }
+}

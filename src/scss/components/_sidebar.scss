@@ -1,0 +1,49 @@
+@use '../abstract/var' as v;
+
+.sidebar {
+    margin-top: 4rem;
+    padding: 1.35rem 1.35rem 0rem 1.35rem;
+    background: v.$very-dark-blue;
+    &__title {
+        font-size: 2rem;
+        color: v.$soft-orange;
+    }
+    &__article {
+        margin-top: 2rem;
+        padding-bottom: 1.8rem;
+        border-bottom: 1px solid v.$dark-grayish-blue;
+        &-title {
+            letter-spacing: .05rem;
+            color: v.$off-white;
+        }
+        &-desc {
+            margin-top: .65rem;
+            font-size: 0.9375rem;
+            line-height: 1.5rem;
+            color: v.$grayish-blue;
+        }
+        &:nth-child(4){
+            border-bottom: none;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .sidebar {
+        margin-top: 0;
+        &__title {
+            font-size: 2rem;
+        }
+    }
+    #sidebar {
+        grid-area: sidebar;
+    }
+}
+@media (min-width: 1200px){
+    .sidebar {
+        &__title {
+            margin-top: .45rem;
+            font-size: 2.5rem;
+        }
+    }
+}
