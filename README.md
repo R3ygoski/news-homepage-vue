@@ -22,15 +22,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontned Mentor](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Solution URL: [Frontned Mentor](https://www.frontendmentor.io/solutions/news-homepage-made-with-vue-and-sass-LxVRksVkz9)
+- Live Site URL: [Github](https://r3ygoski.github.io/news-homepage-vue/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
