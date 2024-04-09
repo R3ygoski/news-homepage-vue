@@ -22,9 +22,12 @@
             font-weight: 800;
             color: v.$grayish-blue;
         }
-        h4 {
+        a {
+            text-decoration: none;
             font-size: 0.9rem;
             grid-area: 2/2/3/3;
+            font-weight: 700;
+            color: v.$very-dark-blue;
             &:hover {
                 color: v.$soft-red;
             }
@@ -33,6 +36,7 @@
         p{
             line-height: 1.35rem;
             grid-area: 3/2/4/3;
+            color: v.$very-dark-blue;
         }
     }
 }
@@ -40,7 +44,7 @@
 @media (min-width: 375px){
     .footer {
         &__article {
-            h4 {
+            a {
                 font-size: 1.15rem;
             }
         }
@@ -55,7 +59,7 @@
             h3 {
                 font-size: .2rem;
             }
-            h4 {
+            a {
                 font-size: 1rem;
             }
             p {
@@ -73,7 +77,7 @@
             h3 {
                 font-size: 2rem;
             }
-            h4 {
+            a {
                 font-size: 1.15rem;
             }
             p {
