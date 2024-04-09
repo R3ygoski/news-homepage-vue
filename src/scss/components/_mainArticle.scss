@@ -31,6 +31,7 @@
             color: v.$off-white;
             background: v.$soft-red;
             cursor: pointer;
+            transition: .3s;
             &:hover {
                 background: v.$very-dark-blue;
             }

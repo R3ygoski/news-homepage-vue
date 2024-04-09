@@ -14,7 +14,13 @@
         border-bottom: 1px solid v.$dark-grayish-blue;
         &-title {
             letter-spacing: .05rem;
+            text-decoration: none;
+            font-weight: 700;
             color: v.$off-white;
+            transition: .3s;
+            &:hover {
+                color: v.$soft-orange;
+            }
         }
         &-desc {
             margin-top: .65rem;

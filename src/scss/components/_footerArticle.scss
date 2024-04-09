@@ -28,6 +28,7 @@
             grid-area: 2/2/3/3;
             font-weight: 700;
             color: v.$very-dark-blue;
+            transition: .3s;
             &:hover {
                 color: v.$soft-red;
             }
